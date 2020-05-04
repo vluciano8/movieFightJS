@@ -1,0 +1,90 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #9fb1bc;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.container {
+	margin: 0 auto;
+}
+
+.plot {
+	font-size: 12px;
+	text-align: justify;
+}
+.content h4 {
+	font-size: 15px;
+}
+#head {
+	font-family: 'Special Elite', cursive;
+	text-shadow: 2px 2px 0px yellow, 5px 5px 5px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+
+a: {
+	text-decoration: none;
+}
+#github:hover {
+	transform: scale(1.5);
+}
+
+.tutorial {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+}
+
+figure.image {
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+	border-radius: 5px;
+}
+
+figure .image img {
+	width: 128px;
+}
+
+.notification {
+	margin-top: 20px !important;
+}
+
+.results {
+	max-height: 500px;
+	overflow-y: scroll;
+}
+
+.title .icon {
+	margin-left: 15px;
+}
+
+.hero {
+	margin-bottom: 20px;
+}
+
+.forms {
+	display: flex;
+	justify-content: space-around;
+}
+
+.dropdown-item {
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+
+.dropdown-item img {
+	height: 50px;
+	margin-right: 10px;
+}
+.image img {
+	border-radius: 3px;
+}
+.footer {
+	padding: 1rem 2rem 1rem 1rem;
+	background-color: yellow;
+}
+.columns {
+	flex: 1;
+}

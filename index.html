@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero is-warning">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-size-2" id="head">
+            Movie Fight
+            <span class="icon">
+              <i class="fas fa-video"></i>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- is-fluid is the property that makes container expands whule footer is sticky and body 'flexed' -->
+    <div class="container is-fluid">
+      <div class="columns">
+        
+        <div class="column is-5">
+          <div class="content has-text-centered is-size-3 has-text-weight-bold	">Movie 1  <i class="fas fa-angle-down"></i></div>
+          <div id="left-autocomplete"></div>
+          <div id="left-summary"></div>
+        </div>
+
+      <div class="column is-2">
+        <div class="content has-text-centered is-size-1 has-text-weight-bold"><i class="fas fa-search is-large"></i></div>
+        </div>
+        
+        <div class="column is-5">
+          <div class="content has-text-centered is-size-3 has-text-weight-bold	">Movie 2  <i class="fas fa-angle-down"></i></div>
+          <div id="right-autocomplete"></div>
+          <div id="right-summary"></div>
+        </div>
+      </div>
+      <div class="column notification is-warning tutorial">
+        <h1 class="title">Search for a movie on both sides</h1>
+        <p class="subtitle">Discover which one is considered the best!!</p>
+      </div>
+    </div>
+    <footer class="footer has-background-warning">
+      <div class="content has-text-centered">
+        <p class="is-size-7 has-text-dark	">Copyright 2020 -
+          <a href="https://github.com/vluciano8"  class="has-text-dark	" target="_blank"> 
+          <i class="fab fa-github" id="github"></i> 
+        </a>
+      </p>
+        <a href="https://bulma.io" target="_blank">
+          <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="96" height="24">
+        </a>
+      </div>
+    </footer>
+    
+    <script src="utils.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
